@@ -4,8 +4,8 @@ from flask_mail import Mail, Message
 app = Flask(__name__)
 
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
-app.config['MAIL_USERNAME'] = 'itsriteshmahale2002@gmail.com'
-app.config['MAIL_PASSWORD'] = 'jduq xhqz tizb xviq'
+app.config['MAIL_USERNAME'] = 'your_email'
+app.config['MAIL_PASSWORD'] = 'your_password'
 app.config['MAIL_PORT'] = 465  # Use port 465 for SMTP over SSL
 app.config['MAIL_USE_SSL'] = True  # Use SSL encryption
 
